@@ -2001,20 +2001,17 @@
 	// ========================================
 
 	// E-mail Ajax Send
-	$("#tt-contact-form").submit(function() { // Change (your contact form ID)
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "/api/mail", // Change (mail.php path)
-			data: th.serialize()
-		}).done(function() {
-			alert("Thank you. Your message has been sent!");
-			setTimeout(function() {
-			// Done Functions
-			th.trigger("reset");
-			}, 800);
-		});
-		return false;
+	$("#tt-contact-form").submit(function(e) { // Change (your contact form ID)
+		e.preventDefault();
+		emailjs.sendForm('service_2jqxyiq', 'template_dqdjspu', '#tt-contact-form').then(
+			(response) => {
+				console.log('SUCCESS!', response.status, response.text);
+				alert('Message sent successfully, thank you!');
+			},
+			(error) => {
+				console.log('FAILED...', error);
+			},
+		);
 	});
 
 
