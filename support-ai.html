@@ -48,6 +48,12 @@
 		<link rel="stylesheet" href="assets/css/helper.css">
 		<link rel="stylesheet" href="assets/css/theme.css">
 
+		<style>
+			#contenthidden {
+			  display: none;
+			}
+		  </style>
+
 	</head>
 
 	
@@ -929,16 +935,17 @@
 								* Use class "tt-pn-scroll" to enable hover title scroll. Note: If "tt-pn-hover-title" text is wider than "tt-pn-link" then it scrolls by default. The longer the text, the faster it scrolls.
 								-->
 								<div class="tt-page-nav tt-pn-scroll">
-									<a href="app-covid.html" class="tt-pn-link anim-fadeinup">
+									<a href="Dell-case.html" class="tt-pn-link anim-fadeinup">
 										<div class="tt-pn-title">Next Project</div>
-										<div class="tt-pn-hover-title">App Covid</div>
+										<div class="tt-pn-hover-title">Leadership at the
+											Dell Design System</div>
 									</a> <!-- /.tt-pn-link -->
 
 									<div class="tt-pn-subtitle anim-fadeinup">Explore More</div>
 
 									<!-- Use if destination page contains page header image -->
 									<div class="tt-pn-image">
-										<img src="assets/img/portfolio/portfolio-4.png" alt="image">
+										<img src="assets/img/portfolio/Dell-leardership.png" alt="image">
 									</div>
 								</div>
 								<!-- End page nav -->
@@ -1040,6 +1047,20 @@
 
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
+
+		<script>
+			// Prompt for password
+			var password = prompt("Please enter the password. (For further details, email me at daiabelcastro@hotmail.com or refer to my CV)");
+		  
+			// Check if the entered password matches
+			if (password === "12345678") {
+			  document.getElementById('content').style.display = 'block';
+			} else {
+			  alert("Incorrect password! Access denied.");
+			  window.location.href = "https://portfolio-daiana-belcastro.vercel.app/index.html"; // Redirect to another page
+			}
+		  </script>
+
 
 
 
