@@ -1,0 +1,40 @@
+/* ==========================================================
+   Home – project thumbnails gradient effect
+   Images start in black & white with a red -> light-green
+   gradient tint. Real colors on hover / focus / tap.
+   ========================================================== */
+
+#portfolio-grid .pgi-image img {
+	filter: grayscale(1) contrast(1.05);
+	transition: filter .7s cubic-bezier(.22,1,.36,1);
+}
+
+/* Gradient tint – red + teal sampled from the home header photo (9.png) */
+#portfolio-grid .pgi-image::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	pointer-events: none;
+	background: linear-gradient(135deg, #b42c2c 0%, #b42c2c 20%, #2fb2b2 100%);
+	mix-blend-mode: color;
+	opacity: .9;
+	transition: opacity .7s cubic-bezier(.22,1,.36,1);
+}
+
+/* Reveal real colors */
+#portfolio-grid .portfolio-grid-item:hover .pgi-image img,
+#portfolio-grid .portfolio-grid-item:focus-within .pgi-image img,
+#portfolio-grid .portfolio-grid-item.pgi-fx-on .pgi-image img {
+	filter: none;
+}
+#portfolio-grid .portfolio-grid-item:hover .pgi-image::after,
+#portfolio-grid .portfolio-grid-item:focus-within .pgi-image::after,
+#portfolio-grid .portfolio-grid-item.pgi-fx-on .pgi-image::after {
+	opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	#portfolio-grid .pgi-image img,
+	#portfolio-grid .pgi-image::after { transition: none; }
+}

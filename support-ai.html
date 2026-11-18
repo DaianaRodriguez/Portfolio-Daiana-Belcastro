@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 
-<!--
-	Template:   Tank - Creative Portfolio Showcase HTML Website Template
-	Author:     Themetorium
-	URL:        https://themetorium.net/
--->
 
 <html lang="en">
 	<head>
@@ -14,8 +9,8 @@
 
 		<!-- Meta -->
 		<meta charset="utf-8">
-		<meta name="description" content="Download Tank - Creative Portfolio Showcase HTML Website Template that comes with rich features and well-commented code. Made by Themetorium.">
-		<meta name="author" content="themetorium.net">
+		<meta name="description" content="Improving Support in the DDS with AI – case study by Daiana Laura Rodriguez, AI-driven Senior Product Designer based in Lisbon.">
+		<meta name="author" content="Daiana Laura Rodriguez">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,11 +43,12 @@
 		<link rel="stylesheet" href="assets/css/helper.css">
 		<link rel="stylesheet" href="assets/css/theme.css">
 
-		<style>
-			#contenthidden {
-			  display: none;
-			}
-		  </style>
+		<link rel="stylesheet" href="assets/css/password-gate.css">
+		<script>
+			/* Password gate: hide content until unlocked (see assets/js/password-gate.js) */
+			try { if (sessionStorage.getItem("dbPortfolioUnlocked") !== "1") document.documentElement.classList.add("pg-locked"); }
+			catch (e) { document.documentElement.classList.add("pg-locked"); }
+		</script>
 
 	</head>
 
@@ -174,11 +170,12 @@
 													<div class="tt-ol-submenu">
 														<ul class="tt-ol-submenu-list">
 
+															<li><a href="Dremio.html">Dremio Website Optimization</a></li>
 															<li><a href="support-ai.html" style="text-decoration: underline;text-decoration-thickness: from-font;text-decoration-color: gray;">Improving Support in DDS</a></li>
 															<li><a href="Dell-case.html">Leadership at Dell</a></li>
 															<li><a href="bk-delivery.html">BK Delivery</a></li>
 															<li><a href="trabajo-argentina.html">Trabajo Argentina</a></li>
-															<li><a href="ambev.html">Ambev Lading Page</a></li>
+															<!-- <li><a href="ambev.html">Ambev Lading Page</a></li> -->
 															<li><a href="cmmg-masters.html">CMMG Masters website</a></li>
 
 														</ul> <!-- /.tt-ol-submenu-list -->
@@ -1045,21 +1042,13 @@
 		<script src="assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
 		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
 
+		<!-- Password gate (must load before theme.js) -->
+
+		<script src="assets/js/password-gate.js"></script>
+
+
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
-
-		<script>
-			// Prompt for password
-			var password = prompt("Please enter the password. (For further details, email me at daiabelcastro@hotmail.com or refer to my CV)");
-		  
-			// Check if the entered password matches
-			if (password === "12345678") {
-			  document.getElementById('content').style.display = 'block';
-			} else {
-			  alert("Incorrect password! Access denied.");
-			  window.location.href = "https://portfolio-daiana-belcastro.vercel.app/index.html"; // Redirect to another page
-			}
-		  </script>
 
 
 

@@ -1,0 +1,32 @@
+# Daiana Laura Rodriguez – Senior Product Designer
+
+> AI-driven Senior Product Designer based in Lisbon, with 10+ years of experience creating meaningful digital experiences for brands like Dremio, Dell Technologies and Burger King.
+
+## About
+- Currently at Dremio (data lakehouse platform), using behavioural analytics to drive the design of the company website.
+- Previously led product design for the Dell Design System website at Dell Technologies, working with a team of four designers.
+- Uses AI throughout the design process: Contentsquare AI analytics, Claude Design, Figma Make and Weavy.
+- Completed six UX courses with the Nielsen Norman Group.
+- Fluent in Spanish, English, Italian and Portuguese; currently learning Japanese.
+
+## Case studies
+- [Optimizing Dremio's Website Through Analytics & AI](https://portfolio-daiana-belcastro.vercel.app/Dremio.html): homepage, pricing and performance redesign; homepage conversion nearly tripled.
+- [Improving Support in DDS with AI](https://portfolio-daiana-belcastro.vercel.app/support-ai.html): Dell Design System
+- [Leadership at the Dell Design System](https://portfolio-daiana-belcastro.vercel.app/Dell-case.html)
+- [BK Delivery app](https://portfolio-daiana-belcastro.vercel.app/bk-delivery.html): Burger King
+- [Interactive landing page](https://portfolio-daiana-belcastro.vercel.app/ambev.html): Ambev
+- [E-commerce for Masters](https://portfolio-daiana-belcastro.vercel.app/cmmg-masters.html): Medical Sciences University (CMMG)
+- [Recruitment platform](https://portfolio-daiana-belcastro.vercel.app/trabajo-argentina.html): Trabajo Argentina
+
+## Services
+- AI-powered design
+- UX / UI design
+- Consulting
+- Training and mentoring
+
+## Contact
+- Website: https://portfolio-daiana-belcastro.vercel.app/
+- About: https://portfolio-daiana-belcastro.vercel.app/about-me.html
+- Email: daiabelcastro@hotmail.com
+- LinkedIn: https://www.linkedin.com/in/daianalaurarodriguez/
+- Behance: https://www.behance.net/daladesigns
