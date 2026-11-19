@@ -2004,9 +2004,11 @@
 			(response) => {
 				console.log('SUCCESS!', response.status, response.text);
 				alert('Message sent successfully, thank you!');
+				document.getElementById('tt-contact-form').reset();
 			},
 			(error) => {
 				console.log('FAILED...', error);
+				alert('Sorry, your message could not be sent. Please email me directly at daiabelcastro@hotmail.com');
 			},
 		);
 	});

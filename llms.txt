@@ -14,7 +14,6 @@
 - [Improving Support in DDS with AI](https://portfolio-daiana-belcastro.vercel.app/support-ai.html): Dell Design System
 - [Leadership at the Dell Design System](https://portfolio-daiana-belcastro.vercel.app/Dell-case.html)
 - [BK Delivery app](https://portfolio-daiana-belcastro.vercel.app/bk-delivery.html): Burger King
-- [Interactive landing page](https://portfolio-daiana-belcastro.vercel.app/ambev.html): Ambev
 - [E-commerce for Masters](https://portfolio-daiana-belcastro.vercel.app/cmmg-masters.html): Medical Sciences University (CMMG)
 - [Recruitment platform](https://portfolio-daiana-belcastro.vercel.app/trabajo-argentina.html): Trabajo Argentina
 
