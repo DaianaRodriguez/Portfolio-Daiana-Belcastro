@@ -30,11 +30,15 @@
 			'<h1 class="pg-title pg-anim" id="pg-title"></h1>' +
 			'<p class="pg-text pg-anim">This project includes confidential work under NDA. Enter the password to view the full case study.</p>' +
 			'<form class="pg-form pg-anim" novalidate>' +
+				'<div class="pg-row">' +
 				'<div class="pg-field">' +
 					'<label for="pg-input" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Password</label>' +
 					'<input id="pg-input" class="pg-input" type="password" placeholder="Enter password" autocomplete="current-password" autofocus>' +
 					'<button type="button" class="pg-toggle" aria-label="Show password"><i class="far fa-eye"></i></button>' +
-					'<button type="submit" class="pg-submit" aria-label="Unlock"><i class="fas fa-arrow-right"></i></button>' +
+				'</div>' +
+				'<div class="tt-btn tt-btn-light-outline pg-submit-btn">' +
+					'<button type="submit" aria-label="Unlock"><i class="fas fa-arrow-right"></i></button>' +
+				'</div>' +
 				'</div>' +
 				'<div class="pg-message" role="alert" aria-live="polite"></div>' +
 			'</form>' +
